@@ -24,7 +24,7 @@ public class Main {
         for ( int salary: salaryArr ) {
             salary1 += salary;
         }
-        System.out.println(" Сумма трат за месяц составила " + salary1 + " рублей");
+        System.out.println(" Сумма трат за месяц составила " + salary1 + " рублей. );
     }
 
     public static void task2() {
