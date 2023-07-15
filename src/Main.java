@@ -49,10 +49,20 @@ public class Main {
     public static void task3() {
         System.out.println("Задача 3");
         int[] salaryArray = generateRandomArray();
-
+        int salary1 = 0;
+        System.out.println(Arrays.toString(salaryArray));
+        for ( int salary: salaryArray ) {
+            salary1 += salary;
+        }
+        double salaryMiddle = (double) salary1/ salaryArray.length;
+        System.out.println(" Средняя сумма трат за месяц составила " + salaryMiddle + " рублей");
     }
 
     public static void task4(){
         System.out.println("Задача 4");
+        char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        for ( int i = reverseFullName.length -1; i >= 0; i --) {
+            System.out.println(reverseFullName[i]);
+        }
     }
 }
