@@ -24,7 +24,7 @@ public class Main {
         for ( int salary: salaryArr ) {
             salary1 += salary;
         }
-        System.out.println(" Сумма трат за месяц составила " + salary1 + " рублей");
+        System.out.println(" Сумма трат за месяц составила " + salary1 + " рублей.");
     }
 
     public static void task2() {
@@ -62,7 +62,7 @@ public class Main {
         System.out.println("Задача 4");
         char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
         for ( int i = reverseFullName.length -1; i >= 0; i --) {
-            System.out.println(reverseFullName[i]);
+            System.out.print(reverseFullName[i]);
         }
     }
 }
